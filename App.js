@@ -1,11 +1,13 @@
 import { StatusBar } from 'expo-status-bar';
 import { ImageBackground, StyleSheet, Text, View } from 'react-native';
-// import StyledButton from './Components/StyledButton';
+import Header from './Components/Header/Index';
+import StyledButton from './Components/StyledButton';
 
 export default function App() {
   return (
     <View style={styles.container}>
       
+      <Header></Header>
 <View style={styles.carContainer}>
   <ImageBackground source={require('./assets/images/ModelX.jpeg')} style={styles.image}>
 
@@ -15,7 +17,7 @@ export default function App() {
     <Text style={styles.subtitle}>Starting at $65,542</Text>
   </View>
 
-{/* <StyledButton></StyledButton> */}
+<StyledButton></StyledButton>
 </View>
 
 
