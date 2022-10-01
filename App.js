@@ -1,5 +1,6 @@
 import { StatusBar } from 'expo-status-bar';
 import { ImageBackground, StyleSheet, Text, View } from 'react-native';
+// import StyledButton from './Components/StyledButton';
 
 export default function App() {
   return (
@@ -14,8 +15,8 @@ export default function App() {
     <Text style={styles.subtitle}>Starting at $65,542</Text>
   </View>
 
+{/* <StyledButton></StyledButton> */}
 </View>
-
 
 
 
